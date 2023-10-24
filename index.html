@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title><myPortfolio class="info"></myPortfolio></title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"/>
+</head>
+<body>
+    <section>
+
+
+
+     <nav class="navbar">
+        <div class="brand-title">Portfolio</div>
+        <a href="#" class="toggle-button">
+          <span class="bar"></span>
+          <span class="bar"></span>
+          <span class="bar"></span>
+        </a>
+        <div class="navbar-links">
+            <ul>
+                <li><a href="#main">Home</a></li>
+                <li><a href="#eduBackground">Qualification</a></li>
+                <li><a href="#mySkills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+    </nav>
+    <section id="main">
+        
+        <div class="content">
+
+             </div>
+             <div class="main-text">
+                 <h1>Hello,</br> I am Manupati srinivas.</h1>
+                 <p>Hey Developvers, Welcome to my portfolio website. Click on navigation menu to explore. </p>
+             </div>
+        </div>
+    </section>
+    <section id="eduBackground">
+        <div class="timeline">
+            <ul>
+                <li id="graduation">
+                    <div class="timeline-content">
+                        <h3><i></i></h3>
+                        <h1></h1>
+                        <p>I am an aspirant student. currentry persuing my <i><b>B.tech</b></i> in computer science Engineering (IOT), <b><i>I have knowlegde on C.python,JAVA,Data structure,html and css. </i></b> i want to explore my skills to the real world. I want gain more knowlegde to increase my skills through an intership program. </p>
+                    </div>
+                </li>
+                <li id="intermediate">
+                    <div class="timeline-content">
+                        <h3><i>2018-20</i></h3>
+                        <h1>Intermediate</h1>
+                        <p>Passed intermediate from <b><i></i>Trinity junior college</b> the stream of MPC with 50% in the year 2020.</p>
+                    </div>
+                </li>
+                <li id="highSchool">
+                    <div class="timeline-content">
+                        <h3><i>2008-2018</i></h3>
+                        <h1>High School</h1>
+                        <p>Passed high school from <b><i>T S Model school jr & clg with 7.4(CGPA) GPA </i></b> in year 2018.</p>
+                    </div>
+                </li>
+    </section>
+    <section id="mySkills">
+        <h1>My Skills</h1>
+        <div class="skills-area">
+          <div class="skill">
+            <div class="skill-title">HTML</div>
+            <div class="skill-bar"></div>
+            <div class="html skill-fill">
+              <span class="skill-percent">90%</span>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-title">CSS</div>
+            <div class="skill-bar"></div>
+            <div class="css skill-fill">
+              <span class="skill-percent">75%</span>
+            </div>
+          </div>
+          <div class="skill">
+            <div class="skill-title">Java</div>
+            <div class="skill-bar"></div>
+            <div class="js skill-fill">
+              <span class="skill-percent">50%</span>
+            </div>
+          </div>
+        </div>
+    </section>
+            </ul>
+        </div>
+    </section>
+    <section id="contact">
+        <div class="form">
+            <h1>GET IN TOUCH</h1>
+            <form id="query">
+                <input type="text" placeholder="Enter your name here..."/>
+                <input type="number" placeholder="Enter phone number..."/>
+                <input type="email" placeholder="Enter email address..."/>
+                <input id="submit" type="submit" value="submit">
+            </form>
+        
+        </div>
+    </section>
+</section>
+    
+<script>
+    const toggleButton = document.getElementsByClassName('toggle-button')[0]
+    const navbarLinks = document.getElementsByClassName('navbar-links')[0]
+ 
+    toggleButton.addEventListener('click', () => {
+        navbarLinks.classList.toggle('active')
+    })
+
+    navbarLinks.addEventListener('click', () => {
+        navbarLinks.classList.toggle('active')
+     })
+    </script> 
+</body>
+</html>
